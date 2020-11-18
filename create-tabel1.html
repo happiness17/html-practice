@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>表格基础</title>
+</head>
+<body>
+    <!-- 三行三列的表格 -->
+    <h4>三行三列的普通表格</h4>
+    <table border="1">
+        <tr>
+            <td>100</td>
+            <td>100</td>
+            <td>100</td>
+        </tr>
+        <tr>
+            <td>200</td>
+            <td>200</td>
+            <td>200</td>
+        </tr>
+        <tr>
+            <td>300</td>
+            <td>300</td>
+            <td>300</td>
+        </tr>
+    </table>
+    <!-- 带有标题的表格 -->
+    <h4>带有标题的表格</h4>
+    <table border="2">
+        <!-- 标题 -->
+        <caption>数据统计表</caption>
+        <tr>
+            <td>123</td>
+            <td>456</td>
+            <td>789</td>
+        </tr>
+        <tr>
+            <td>111</td>
+            <td>444</td>
+            <td>777</td>
+        </tr>
+        <tr>
+            <td>134</td>
+            <td>546</td>
+            <td>979</td>
+        </tr>
+    </table>
+    <!-- 可以通过改变border属性的值来改变表格边框的粗细 -->
+    <h4>边框加粗的表格</h4>
+    <table border="8">
+        <tr>
+            <td>233</td>
+            <td>425</td>
+            <td>369</td>
+        </tr>
+        <tr>
+            <td>233</td>
+            <td>425</td>
+            <td>369</td>
+        </tr>
+    </table>
+    <!-- 定义表格的表头  水平和垂直表头  标签<th></th> -->
+    <!-- 水平表头 -->
+    <h4>水平表头</h4>
+    <table border="1"> 
+        <tr>
+            <th>姓名</th>
+            <th>性别</th>
+            <th>年龄</th>
+        </tr>
+        <tr>
+        <td>张三</td>
+        <td>female</td>
+        <td>25</td>
+    </tr>
+    <tr>
+        <td>李四</td>
+        <td>male</td>
+        <td>28</td>
+    </tr>
+    <tr>
+        <td>王五</td>
+        <td>male</td>
+        <td>30</td>
+    </tr>
+    </table>
+    <!-- 垂直表头 -->
+    <h4>垂直表头</h4>
+    <table border="1">
+        <tr>
+            <th>姓名</th>
+            <td>linda</td>
+            <td>Alice</td>
+        </tr>
+        <tr>
+        <th>地址</th>
+        <td>北京</td>
+        <td>上海</td>
+    </tr>
+    <tr>
+        <th>电话</th>
+        <td>13235766666</td>
+        <td>15229605555</td>
+    </tr>
+    </table>
+    <!-- 设置表格背景 -->
+    <h4>设置表格背景颜色</h4>
+    <table border="1" bgcolor="pink">
+        <tr>
+            <td>200</td>
+            <td>300</td>
+            <td>400</td>
+        </tr>
+        <tr>
+            <td>600</td>
+            <td>200</td>
+            <td>400</td>
+        </tr>
+        <tr>
+            <td>560</td>
+            <td>380</td>
+            <td>900</td>
+        </tr>
+    </table>
+    <!-- 设置表格背景图片  单元格背景图片-->
+    <h4>为表格和单元格设置背景图片</h4>
+    <table border="1" 
+    background="../images/winter.jpg">
+        <tr>
+            <th>日期</th>
+            <td>2020.11.11</td>
+        </tr>
+        <tr>
+            <th>星期</th>
+            <td background="../images/winter.jpg">Wednesday</td>
+        </tr>
+        <tr>
+            <th>天气</th>
+            <td>晴天</td>
+        </tr>
+        <tr>
+            <th>备注</th>
+            <td>双11，购物狂欢节！</td>
+        </tr>
+    </table>
+</body>
+</html>
